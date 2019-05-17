@@ -1,0 +1,68 @@
+{
+  "name": "razzle-examples-with-afterjs",
+  "version": "3.0.0",
+  "keywords": [
+    "react",
+    "reactjs",
+    "argon",
+    "argon-react",
+    "dashboard",
+    "dashboard-react",
+    "argon-dashboard",
+    "argon-dashboard-react"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "razzle start",
+    "build": "razzle build",
+    "test": "razzle test --env=jsdom",
+    "start:prod": "NODE_ENV=production node build/server.js",
+    "compile-sass": "node-sass --watch /Users/alexandre/react/project/my-cartorio/src/assets/scss -o /Users/alexandre/project/react/my-cartorio/src/assets/css",
+    "minify-sass": "node-sass --watch assets/scss -o assets/css --output-style compressed",
+    "map-sass": "node-sass --watch assets/scss -o assets/css --source-map true"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "dependencies": {
+    "@jaredpalmer/after": "latest",
+    "@material-ui/core": "^3.9.3",
+    "axios": "^0.18.0",
+    "chart.js": "^2.8.0",
+    "classnames": "^2.2.6",
+    "debug": "^4.1.1",
+    "express": "^4.16.2",
+    "formik": "^1.5.4",
+    "html-webpack-cdn-plugin": "^0.2.0",
+    "lodash": "^4.17.11",
+    "match-sorter": "^3.0.0",
+    "moment": "^2.24.0",
+    "node-sass": "^4.12.0",
+    "nouislider": "^13.1.5",
+    "prop-types": "^15.7.2",
+    "query-string": "^6.5.0",
+    "razzle": "^3.0.0",
+    "razzle-plugin-typescript": "^3.0.0",
+    "react": "^16.2.0",
+    "react-chartjs-2": "^2.7.6",
+    "react-copy-to-clipboard": "^5.0.1",
+    "react-datetime": "^2.16.3",
+    "react-dom": "^16.2.0",
+    "react-helmet": "^5.2.0",
+    "react-redux": "^7.0.3",
+    "react-router-dom": "^4.2.2",
+    "react-table": "^6.10.0",
+    "reactstrap": "^8.0.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "seamless-immutable": "^7.1.4",
+    "typeface-roboto": "^0.0.54"
+  },
+  "devDependencies": {
+    "@types/googlemaps": "^3.30.19",
+    "@types/markerclustererplus": "^2.1.33",
+    "@types/react": "^16.8.17",
+    "razzle-plugin-scss": "^3.0.0",
+    "typescript": "^3.4.5"
+  }
+}
